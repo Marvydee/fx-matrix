@@ -67,10 +67,13 @@ export default function CurrencyConverter() {
     }
   }, []);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => {
-    fetchRates(from);
-  }, []);
+  useEffect(
+    () => {
+      fetchRates(from);
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [],
+  );
 
   // Rebuild chart history whenever the target rate changes
   useEffect(() => {
