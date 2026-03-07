@@ -3,7 +3,7 @@
 A currency converter that does slightly more than most.
 
 **The cross-rate thing**  
-Most converters make one API call per pair. This one fetches USD base 
+Most converters make one API call per pair. This one fetches USD base
 rates once and derives every other pair from that using:
 
     GBP/NGN = (USD→NGN) / (USD→GBP)
@@ -11,8 +11,8 @@ rates once and derives every other pair from that using:
 One call. All pairs.
 
 **The chart**  
-Built with raw SVG — polyline, polygon, circle. No Recharts, no Chart.js. 
-The tooltip finds the nearest data point by mapping the mouse X position 
+Built with raw SVG — polyline, polygon, circle. No Recharts, no Chart.js.
+The tooltip finds the nearest data point by mapping the mouse X position
 to an index in the data array.
 
 **Setup**  
