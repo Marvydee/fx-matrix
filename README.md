@@ -21,4 +21,4 @@ No API key needed. open.er-api.com is free and open.
     npm install && npm start
 
 Stack: React · open.er-api.com · SVG  
-Live: [#](#)
+Live: https://fxmatrix.pages.dev/
